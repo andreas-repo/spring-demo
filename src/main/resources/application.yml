@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: spring-demo
+
+---
+
+environment: dev
+spring:
+  profiles: build
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demoDB
+    username: demo
+    password: demo
+    driverClassName: org.postgresql.Driver
+
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: ba602d9496c1f1b010f8
+            clientSecret: 6ad0a7fce0ab2efc9fb340af62f7ce2449753b38
