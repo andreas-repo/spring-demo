@@ -13,3 +13,6 @@ https://spring.io/guides/gs/serving-web-content/
 
 #### Simple security 
 https://spring.io/guides/gs/securing-web/
+
+Username: user
+Password: password
